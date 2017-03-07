@@ -4,8 +4,7 @@ var client = new Wrike({
 });
 
 client.get('contacts',{me: true}, function(error,data,response){
-  var metadata = JSON.stringify([{key:"testMetaKey",value:"testMetaValue"}]);
-  client.put('contacts/'+data.data[0].id,{metadata: metadata}, function(error2,data2,response2){
+  client.put('contacts/'+data.data[0].id,{metadata: [{key:"testMetaKey",value:"testMetaValue"}]}, function(error2,data2,response2){
     console.log(data2);
   });
 });
