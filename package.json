@@ -1,0 +1,31 @@
+{
+  "name": "wrike-api",
+  "version": "1.0.0",
+  "description": "Wrike api wrapper for nodejs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/famthegeek/wrike-api.git"
+  },
+  "keywords": [
+    "wrike",
+    "api",
+    "productivity",
+    "task",
+    "management"
+  ],
+  "author": "Fredrik Mundt",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/famthegeek/wrike-api/issues"
+  },
+  "homepage": "https://github.com/famthegeek/wrike-api#readme",
+  "dependencies": {
+    "deep-extend": "^0.4.1",
+    "request": "^2.80.0",
+    "url": "^0.11.0"
+  }
+}
